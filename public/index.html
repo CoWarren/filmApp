@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <title>Home</title>
+</head>
+<body>
+  <h1>Register</h1>
+  <form id="regForm">
+    <label for="regUser">Username:</label><br>
+    <input type="text" id="regUser" required><br>
+    <label for="regEmail" type="email" required>Email:</label><br>
+    <input type="text" id="regEmail"><br>
+    <label for="regPassword">Password:</label><br>
+    <input type="password" id="regPassword" required>
+    <p id="formMsg"></p>
+    <button type="submit" id="register" value="Register">Register</button>
+  </form> 
+  <form id="logForm" hidden>
+    <label for="logUser">Username:</label><br>
+    <input type="text" id="logUser"><br>
+    <label for="logPassword">Password:</label><br>
+    <input type="password" id="logPassword" >
+    <p id="logMsg"></p>
+    <button id="login">Login</button>
+  </form> 
+  <section class="main">
+    
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
